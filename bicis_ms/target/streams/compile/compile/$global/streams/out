@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\felip\Documents\Arquitectura\Play\sa_bicis_ms\bicis_ms\app\controllers\BicisController.java:42:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method save()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class models.Bicicleta[0m
+[0m[[0m[31merror[0m] [0m[0m        getRequests(bicicleta).save();[0m
