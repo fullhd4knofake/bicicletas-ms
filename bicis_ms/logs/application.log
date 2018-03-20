@@ -1,0 +1,15 @@
+2018-03-19 19:13:57,132 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
+2018-03-19 19:13:57,176 [WARN] from com.zaxxer.hikari.util.DriverDataSource in play-dev-mode-akka.actor.default-dispatcher-6 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-03-19 19:13:57,731 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-6 - Database [default] connected at jdbc:mysql://bicicletasdb/bicicletasdb
+2018-03-19 19:13:59,244 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-6 - application.conf @ file:/home/juancho/workspace/msregbic/bicis_ms/target/scala-2.12/classes/application.conf: 6: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-03-19 19:14:00,015 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-6 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-03-19 19:14:00,186 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-6 - Application started (Dev)
+2018-03-19 19:14:00,585 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-4 - Host not allowed: 192.168.1.7:9000
+2018-03-19 19:14:01,275 [WARN] from play.filters.hosts.AllowedHostsFilter in application-akka.actor.default-dispatcher-4 - Host not allowed: 192.168.1.7:9000
+2018-03-19 19:14:25,644 [INFO] from play.core.server.AkkaHttpServer in pool-6-thread-6 - Stopping server...
+2018-03-19 19:14:25,728 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.

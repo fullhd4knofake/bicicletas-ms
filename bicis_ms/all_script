@@ -3,6 +3,6 @@ eval $(docker-machine env nodo2)
 sbt update
 sbt compile
 sbt dist
-.generate_svc
+./generate_svc
 docker-compose build
 docker-compose up
