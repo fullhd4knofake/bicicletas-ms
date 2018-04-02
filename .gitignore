@@ -1,4 +1,10 @@
+*.class
 *.log
+*.cache
+
+*/target/*
+target/*
+svc/*
 
 # Windows image file caches
 Thumbs.db
