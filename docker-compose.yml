@@ -11,7 +11,8 @@ services:
       MYSQL_DATABASE: bicicletasdb
       MYSQL_HOST: bicicletasdb
   biciun:
-    build: .
+    image: fullhd4knofake/bicicletas:estable
+    # build: .
     ports:
       - "9000:9000"
     depends_on:
